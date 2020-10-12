@@ -1,0 +1,40 @@
+h1 { 
+  font-family:cursive;
+ 
+}
+
+.p {
+    border: 2px solid black;
+    background-color: #8D8D8D;
+    padding: 60px 10px 10px 10px;
+    position: relative;
+    width: 30%;
+    height: 120px;
+    margin-right:20px;
+	margin-left:auto;
+	font-family:cursive;
+	color: black;
+	float:left;
+} 
+
+.inner1 {
+	border: 2px solid black;
+	background-color: #ff8080;
+	font-size: 24px;
+    padding: 10px 5px 0px 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40%;
+    height: 40px; 
+	font-weight:bold;
+	
+}
+
+article .inner1{
+	background-color: #ff3333;
+	color:white;
+}
+
+
+@media (min-width:992px ) {"p", "inner1" }
